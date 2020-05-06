@@ -9,8 +9,8 @@ end
 
 
 def not_safe?(speed)
-	puts speed>60?"true":"false"
-	speed < 40?"true":"false"
+	if speed > 60? "true" : "false"
+	elsif speed < 40? "true" : "false"
 end
 	end
 
